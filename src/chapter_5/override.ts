@@ -21,8 +21,8 @@
             this.rank = rank;
         }
 
-        public override isAdult(): boolean {
-            return true;
-        }
+        // public override isAdult(): boolean {
+        //     return true;
+        // }
     }
 }

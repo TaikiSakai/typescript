@@ -17,6 +17,6 @@
     };
 
     const f: (age: number) => HasName = fromAge;
-    const g: (name: string, age: number) => HasNameAndAge = fromAge2;
+    // const g: (name: string, age: number) => HasNameAndAge = fromAge2;
     const obj: HasName = f(100);
 }

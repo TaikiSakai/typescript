@@ -14,7 +14,6 @@
     }
 
     const person = new User('sakai', 22);
-    console.log(person.age);
 
     class PremiumUser extends User { 
         public override isAdult(): boolean {

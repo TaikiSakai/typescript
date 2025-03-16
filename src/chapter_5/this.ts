@@ -20,6 +20,7 @@
 
     const uhyo = new User('uhyo', 22);
     const tom = new User('tom', 17);
+    
     const bob = new User('bob', 30);
 
     const older = uhyo.filterOlder([tom, bob]);
